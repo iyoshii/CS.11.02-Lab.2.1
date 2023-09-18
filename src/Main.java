@@ -47,7 +47,7 @@ public class Main {
     public static int add(int num1, int num2, int num3, int num4){
         int sum1=add(num1,num2);
         int sum2=add(num3,num4);
-        return sum1+sum2;
+        return add(sum1,sum2);
     }
 
     // 3. morningGreeting
